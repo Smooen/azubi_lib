@@ -9,13 +9,6 @@ export const metadata: Metadata = {
   description: "Can probablyjust insert this into a .NET Backend and roll with it",
 };
 
-// all the stuff around the list go here
-
-function scrollToTop(e): void {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{

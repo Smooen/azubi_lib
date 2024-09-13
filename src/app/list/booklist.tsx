@@ -2,10 +2,10 @@ import Book from "./book.tsx"
 
 export default function BookList({books}) {
 	return (
-		<div>
-			{books.map((title) => (
-				<Book title={title} />
+		<ul role="list" className="divide-y divide-gray-100">
+			{books.map((props) => (
+				<Book {...props} />
 			))}
-		</div>
+		</ul>
 	)
 }
