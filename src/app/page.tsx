@@ -1,7 +1,9 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
-import BookList from "./list/booklist.tsx"
-// default page -> will probably be login or dashboard later on
+import BookList from "./list/booklist.tsx";
+import SearchBar from "./components/searchbar.tsx";
+import ScrollButton from "./components/scrollbutton.tsx";
 
 export default function Home() {
   // books from database
@@ -9,14 +11,13 @@ export default function Home() {
 
   return (
     <div> 
-      // search
+      <SearchBar />
       // logo
 
       <h1>Testing</h1>
       <BookList books={books}/>
 
-
-      // button scroll to top
+      <ScrollButton />
     </div>
   );
 }
