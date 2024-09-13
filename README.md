@@ -22,3 +22,16 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## TODO
+
+1. Statischer Prototyp der Webseite erstellen
+
+- Welche Components brauchen wir?
+    - Wie sollen die Components aussehen?
+- Wie sind die Components voneinander abhängig?
+- Wie zu hölle funktioniert React?
+
+
+- Wie soll das Routing aussehen?
+

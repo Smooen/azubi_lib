@@ -1,5 +1,7 @@
+import BookDetails from "./details.tsx";
+
 export default function Details() {
   return (
-    <h1>Details innit</h1>
+    <BookDetails />
   );
 }
