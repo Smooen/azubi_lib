@@ -5,10 +5,6 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
@@ -26,12 +22,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## TODO
 
 1. Statischer Prototyp der Webseite erstellen
+    - Komponenten ausarbeiten (noch keine funktionalitäten):
+        - Search
+        - Book ListItem
+        - Listen und Details Layout
+        - Book Details View
+    - Wie funktioniert das Routing von ListItem -> Details und zurück?
 
-- Welche Components brauchen wir?
-    - Wie sollen die Components aussehen?
-- Wie sind die Components voneinander abhängig?
-- Wie zu hölle funktioniert React?
+2. Funktionalitäten / JS zu den Komoponenten hinzufügen
 
+3. ???
 
-- Wie soll das Routing aussehen?
-
+4. Profit
