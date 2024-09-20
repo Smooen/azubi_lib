@@ -1,5 +1,6 @@
 
 export default function Book({
+	isbn,
 	imageLink,
 	title, 
 	author, 
@@ -8,8 +9,8 @@ export default function Book({
 }) 
 {
 	return (
-		// img
-		<li className="flex justify-between gap-x-6 py-5">
+		// make the cover image its own component?
+		<li key={isbn} className="flex justify-between gap-x-6 py-5">
 			<img alt="" src={imageLink}/>
 			<div className="min-w-0 flex-auto">
 				<p className="text-sm font-semibold leading-6 text-gray-900">{title}</p>
