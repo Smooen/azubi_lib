@@ -1,10 +1,8 @@
-export default function BookDetails({book}) {
-
-  console.log("Details");
+export default function BookDetails({params}) {
 
   return (
     <div>
-      BookDetails Test 12213213123
+      BookDetails Test {params.isbn}
     </div>
   );
 }

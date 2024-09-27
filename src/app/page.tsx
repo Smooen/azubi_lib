@@ -4,7 +4,7 @@ import SearchBar from "./components/searchbar";
 import ScrollButton from "./components/scrollbutton";
 
 export default function Home() {
-  // books from database
+  // books from database? -> should not query all book-related data
   let books = [ 
     { "isbn": "1", "title": "Harry Potter", "author": "J.K. Rowling", "releaseDate": "1997", "availability": true }, 
     { "isbn": "9780441172719", "title": "Dune", "author": "Frank Herbert", "releaseDate": "1987", "availability": false, "imageLink": "http://books.google.com/books/content?id=nrRKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api" }, 
