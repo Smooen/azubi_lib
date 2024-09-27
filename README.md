@@ -28,9 +28,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
         - Listen und Details Layout
         - Book Details View
     - Wie funktioniert das Routing von ListItem -> Details und zurück?
+    - Wie funktioniert das dynamische routing (funktioniert mehr oder weniger)
 
 2. Funktionalitäten / JS zu den Komoponenten hinzufügen
 
-3. ???
+3. Wie typescript typen validieren mit objekten/components etc.?
 
-4. Profit
+4. ???
+
+5. Profit
