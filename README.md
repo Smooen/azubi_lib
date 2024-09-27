@@ -19,6 +19,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+- Use graphql for retreiving only certain book object properties from the database (?)
+
 ## TODO
 
 1. Statischer Prototyp der Webseite erstellen

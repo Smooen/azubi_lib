@@ -5,8 +5,11 @@ interface Book {
 	imageLink: string;
 	title: string;
 	author: string;
+	authors: string[];
+	pageCount: number;
 	releaseDate: string;
 	availability: boolean;
+	publisher: string;
 }
 
 export default function Book({...params}: Book)
