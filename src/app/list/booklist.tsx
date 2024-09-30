@@ -12,7 +12,7 @@ export default function BookList({books}) {
 		<div className="p-5 mb-4 border border-gray-300 rounded-lg bg-gray-50">
 		<ul role="list" className="divide-y-2 divide-gray-200">
 			{books.map((props) => (
-				<div>
+				<div key={props.isbn}>
 					<Book {...props} />
 				</div>
 			))}
