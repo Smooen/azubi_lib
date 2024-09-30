@@ -13,7 +13,7 @@ export default function BookDetails({params}) {
 				<div>
 					<p className="text-gray-900 font-bold text-xl mb-2">{params.title}</p>
 					<p>{params.description}</p>
-					{params.authors.map((author) => (
+					{params.authors.map((author: string) => (
 						<p>{author}</p>
 					))}
 				</div>

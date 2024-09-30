@@ -9,12 +9,14 @@ export default function BookList({books}) {
 	}
 
 	return (
-		<ul role="list" className="divide-y divide-gray-100">
+		<div className="p-5 mb-4 border border-gray-300 rounded-lg bg-gray-50">
+		<ul role="list" className="divide-y-2 divide-gray-200">
 			{books.map((props) => (
 				<div>
 					<Book {...props} />
 				</div>
 			))}
 		</ul>
+		</div>
 	)
 }

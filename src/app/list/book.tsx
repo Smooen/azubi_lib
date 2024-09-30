@@ -16,7 +16,7 @@ export default function Book({...params}: Book)
 {
 	return (
 		<Link href={`/details/${params.isbn}/`}>
-			<li key={params.isbn} className="flex justify-between gap-x-6 py-5">
+			<li key={params.isbn} className="flex justify-between gap-x-6 py-5 hover:bg-gray-200">
 				<img alt="" src={params.imageLink}/>
 				<div className="min-w-0 flex-auto">
 					<p className="text-sm font-semibold leading-6 text-gray-900">{params.title}</p>

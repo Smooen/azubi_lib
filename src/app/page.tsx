@@ -12,14 +12,14 @@ export default function Home() {
   ]
 
   return (
-    <div> 
-      <SearchBar />
+	  <div className="container mx-auto mt-5">
+		  <h1 className="text-3xl font-bold underline">Testing</h1>
+		  
+		  <SearchBar/>
 
-      <h1 className="text-3xl font-bold underline">Testing</h1>
+		  <BookList books={books}/>
 
-      <BookList books={books}/>
-
-      <ScrollButton />
-    </div>
+		  <ScrollButton/>
+	  </div>
   );
 }
