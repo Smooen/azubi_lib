@@ -7,15 +7,17 @@ export default function BookDetails({params}) {
 			     src={params.imageLinks.thumbnail}/>
 			<div
 				className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-				<div><p className={""}>availability</p>
-					<p>{params.pageCount}</p>
-					<p>{params.publisher}</p></div>
 				<div>
-					<p className="text-gray-900 font-bold text-xl mb-2">{params.title}</p>
-					<p>{params.description}</p>
+					<p>🟢 or 🔴 </p>
+					<p>{params.pageCount}</p>
 					{params.authors.map((author: string) => (
-						<p>{author}</p>
+						<p key={author}>{author}</p>
 					))}
+					<p>{params.publisher}</p>
+				</div>
+				<div>
+					<h2 className="text-gray-900 font-bold text-xl mb-2 underline">{params.title}</h2>
+					<p>{params.description}</p>
 				</div>
 			</div>
 		</div>
