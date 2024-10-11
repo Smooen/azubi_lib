@@ -36,6 +36,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 3. Wie typescript typen validieren mit objekten/components etc.?
 
-4. ???
+4. ??? - ???
 
 5. Profit
