@@ -23,6 +23,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## TODO
 
+-> 2 Datenbanken? Erste Datenbank für Buch-Metadata und zweite für restl. content.
+
 1. Statischer Prototyp der Webseite erstellen
     - Komponenten ausarbeiten (noch keine funktionalitäten):
         - Search
