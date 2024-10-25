@@ -1,12 +1,11 @@
 import BookDetails from "./details";
 
 export default async function Details({params}: { params: { isbn: string }}) {
-	// don't fetch hardcoded isbn
 	// let book = await fetch('https://www.googleapis.com/books/v1/volumes?q=isbn:978-0-441-17271-9');
 	//let book = await fetch('https://www.googleapis.com/books/v1/volumes?q=isbn:' + params.isbn);
 	let book = await fetch('https://www.googleapis.com/books/v1/volumes?q=isbn' + params.isbn);
 	let content = await book.json();
-	console.log(content);
+
 	if (content.totalItems == 0) {
 		return (
 			<p className="accent-red-600">No book found on Google Books, ideally redirect to 404</p>

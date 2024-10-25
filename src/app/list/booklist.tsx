@@ -1,3 +1,4 @@
+'use client'
 import Book from "./book"
 import { useRouter } from "next/navigation";
 
